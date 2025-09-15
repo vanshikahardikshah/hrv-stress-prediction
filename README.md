@@ -4,7 +4,7 @@
 _ Thang Cao  
 _ Julie Nguyen  
 _ Thaneesha Singh  
-_ Maria BelMont  
+_ Maria Belmont  
 _ Vanshika Shah  
 
 ## Dataset description
