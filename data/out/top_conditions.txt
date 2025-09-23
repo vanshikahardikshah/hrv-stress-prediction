@@ -1,3 +1,0 @@
- 200082 no stress
- 105150 interruption
-  64057 time pressure
