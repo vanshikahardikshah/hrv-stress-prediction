@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Heart Rate Prediction to Monitor Stress Level
 
 ## Team Members
