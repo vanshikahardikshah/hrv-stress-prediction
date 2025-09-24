@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Heart Rate Prediction to Monitor Stress Level
 
 ## Team Members
@@ -16,3 +17,17 @@ _ Description: It contains multiple input features designed to predict an indivi
 
 
 
+=======
+## Source & Link
+- Source: https://www.kaggle.com/datasets/vinayakshanawad/heart-rate-prediction-to-monitor-stress-level
+- License/Access: Public dataset
+
+## File Format(s)
+- Format: CSV (comma-delimited)
+- Compression: .zip
+
+## Row/Column Rough Counts
+- Rows: 369289 
+- Columns: 7
+- Delimiter: `,`
+>>>>>>> ce9b7f0 (Initial commit of out/ directory)
