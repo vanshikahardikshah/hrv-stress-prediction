@@ -1,0 +1,37 @@
++ TEAM_NAME=team05_sec3
++ DATASET_FILE=heart_rate_non_linear_features_train.csv
++ OUT=out
++ cd /mnt/scratch/CS131_jelenag/projects/team05_sec3/
++ echo 'Creating 1k sample with header…'
+Creating 1k sample with header…
++ head -n 1 heart_rate_non_linear_features_train.csv
++ tail -n +2 heart_rate_non_linear_features_train.csv
++ shuf -n 1000
++ echo 'Creating Frequency table of SD1…'
+Creating Frequency table of SD1…
++ tail -n +2 heart_rate_non_linear_features_train.csv
++ cut -d, -f2
++ sort
++ uniq -c
++ sort -nr
++ echo 'Creating Frequency table of SD2…'
+Creating Frequency table of SD2…
++ tail -n +2 heart_rate_non_linear_features_train.csv
++ cut -d, -f3
++ sort
++ uniq -c
++ sort -nr
++ cut -d, -f7 heart_rate_non_linear_features_train.csv
++ tail -n +2
++ sort
++ uniq -c
++ sort -nr
++ tail -n +2 heart_rate_non_linear_features_train.csv
++ cut -d, -f1,4,7
++ sort -u
++ cut -d, -f1,7 heart_rate_non_linear_features_train.csv
++ sort -t, -k1,1
++ cut -d, -f1,2 heart_rate_non_linear_features_train.csv
++ sort -t, -k1,1
++ cd out
++ join -t, -1 1 -2 1 script_id_condition.txt script_id_SD1.txt
