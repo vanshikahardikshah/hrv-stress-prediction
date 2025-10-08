@@ -29,4 +29,3 @@ _ Description: It contains multiple input features designed to predict an indivi
 - Rows: 369289 
 - Columns: 7
 - Delimiter: `,`
->>>>>>> ce9b7f0 (Initial commit of out/ directory)
